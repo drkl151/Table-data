@@ -1,0 +1,118 @@
+$grey: rgb(59, 58, 58);
+
+.search-block {
+  display: flex;
+  justify-content: flex-end;
+
+  .wrapper__search-input {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid $grey;
+    border-radius: 30px;
+    width: 410px;
+    margin: 25px 80px 0 0;
+    padding: 8px;
+    box-shadow: 1px 1px 2px 1px $grey;
+
+    .search-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 14px;
+    }
+
+    .search-input {
+      font-size: 20px;
+      width: 350px;
+      height: 25px;
+      margin-top: 2px;
+      border: none;
+    }
+
+    .search-input:focus {
+      outline: none;
+    }
+  }
+}
+.table-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 100%;
+  }
+
+  .table {
+    border: 3px solid $grey;
+    border-radius: 8px;
+    background-color: rgba(84, 180, 151, 0.137);
+    margin-top: 50px;
+    width: 90vw;
+
+
+    tbody {
+      overflow-y: hidden;
+
+      th,
+      td {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        border: 1px solid $grey;
+        padding: 17px;
+        text-align: center;
+      }
+
+      th {
+        font-weight: 500;
+        font-size: 23px;
+      }
+
+      td {
+        font-weight: 200;
+        font-size: 19px;
+      }
+
+      .sort-button {
+        cursor: pointer;
+      }
+
+      .checkbox {
+        border: 2px solid red;
+        width: 20px;
+        height: 37px;
+        background-color: aqua;
+      }
+    }
+    .edit-input {
+      outline: none;
+      font-size: 18px;
+      border: 1px solid $grey;
+      border-radius: 3px;
+    }
+
+    .button-ok,
+    .button-cancel {
+      border: 1px solid $grey;
+      cursor: pointer;
+      width: 60px;
+      border-radius: 3px;
+      margin: 7px 3px 0;
+    }
+    .button-ok {
+      background-color: rgb(145, 230, 128);
+    }
+
+    .button-cancel {
+      background-color: rgb(224, 130, 101);
+    }
+
+    .error-no-results-found {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      text-align: center;
+      font-size: 29px;
+      font-weight: 500;
+    }
+  }
+}
