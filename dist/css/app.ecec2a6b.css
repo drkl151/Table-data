@@ -1,0 +1,119 @@
+.search-block, .search-block .wrapper__search-input {
+  display: flex;
+  justify-content: flex-end
+}
+
+.search-block .wrapper__search-input {
+  border: 1px solid #3b3a3a;
+  border-radius: 30px;
+  width: 410px;
+  margin: 25px 80px 0 0;
+  padding: 8px;
+  box-shadow: 1px 1px 2px 1px #3b3a3a
+}
+
+.search-block .wrapper__search-input .search-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 14px
+}
+
+.search-block .wrapper__search-input .search-input {
+  font-size: 20px;
+  width: 350px;
+  height: 25px;
+  margin-top: 2px;
+  border: none
+}
+
+.search-block .wrapper__search-input .search-input:focus {
+  outline: none
+}
+
+.table-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.table-wrapper input {
+  width: 100%
+}
+
+.table-wrapper .table {
+  border: 3px solid #3b3a3a;
+  border-radius: 8px;
+  background-color: rgba(84, 180, 151, .137);
+  margin-top: 50px;
+  width: 90vw
+}
+
+.table-wrapper .table tbody {
+  overflow-y: hidden
+}
+
+.table-wrapper .table tbody td, .table-wrapper .table tbody th {
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  border: 1px solid #3b3a3a;
+  padding: 17px;
+  text-align: center
+}
+
+.table-wrapper .table tbody th {
+  font-weight: 500;
+  font-size: 23px
+}
+
+.table-wrapper .table tbody td {
+  font-weight: 200;
+  font-size: 19px
+}
+
+.table-wrapper .table tbody .sort-button {
+  cursor: pointer
+}
+
+.table-wrapper .table tbody .checkbox {
+  border: 2px solid red;
+  width: 20px;
+  height: 37px;
+  background-color: #0ff
+}
+
+.table-wrapper .table .edit-input {
+  outline: none;
+  font-size: 18px;
+  border: 1px solid #3b3a3a;
+  border-radius: 3px
+}
+
+.table-wrapper .table .button-cancel, .table-wrapper .table .button-ok {
+  border: 1px solid #3b3a3a;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 3px;
+  margin: 7px 3px 0
+}
+
+.table-wrapper .table .button-ok {
+  background-color: #91e680
+}
+
+.table-wrapper .table .button-cancel {
+  background-color: #e08265
+}
+
+.table-wrapper .table .error-no-results-found {
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  text-align: center;
+  font-size: 29px;
+  font-weight: 500
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
