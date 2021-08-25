@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/ table-data /'
+  publicPath: '/table-data/'
 }
