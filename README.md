@@ -1,6 +1,6 @@
 # Table Data
 ### Run the project
- ` 1. $ git https://github.com/drkl151/table-data` <br>
+ ` 1. $ git clone https://github.com/drkl151/table-data` <br>
  ` 2. Open the folder in a text editor`<br>
  ` 3. $ npm run serve`
 
